@@ -5,6 +5,14 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.navbar-brand {
+header {
+    background: left / cover no-repeat url("img/xbox-x-banner.jpg");
+}
+
+header .row {
+    height: 100vh;
+}
+
+.navbar-brand, h1, h2 {
     font-family: 'Odibee Sans', cursive;
 }
