@@ -104,10 +104,6 @@
         </div>
     </section>
 
-    <section class="container gx-0">
-        <h2 class="display-5 text-center">Send Us Your Order</h2>
-    </section>
-
     <section class="container mb-0">
         <div class="row">
             <div class="col-md-7 gx-0 order-1 order-md-0 gx-0"><img class="img-fluid" src="img/gaming.jpg"
@@ -121,7 +117,63 @@
         </div>
     </section>
 
-    <footer class="container dark-background p-4 text-center">
+    <section class="container">
+        <h2 class="display-5 text-center">Send Us Your Order</h2>
+        <form action="#" class="py-5 order-form">
+            <div class="row mb-3">
+                <div class="col-md-6 offset-md-3 mb-3">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" name="firstname" id="firstname" class="form-control" required>
+                </div>
+                <div class="col-md-6 offset-md-3 mb-3">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" class="form-control" required>
+                </div>
+                <div class="col-md-6 offset-md-3 mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-3 offset-md-3 mb-3 mb-md-0 me-md-5">
+                    <select class="form-select">
+                        <option selected>Select a platform</option>
+                        <option value="xbox">Xbox</option>
+                        <option value="playstation">Playstation</option>
+                        <option value="nintendo">Nintendo</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <p>Select a colour</p>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="colour" value="purple" id="purple">
+                        <label class="form-check-lable" for="purple">Purple</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="colour" value="yellow" id="yellow">
+                        <label class="form-check-lable" for="yellow">Yellow</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="colour" value="teal" id="teal">
+                        <label class="form-check-lable" for="teal">Teal</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 offset-md-3">
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms">Click to accept terms</label>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6 offset-md-3">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="dark-background p-4 text-center">
         <p>&copy; Built By Russell Longstaff. Photos from Unsplash.</p>
     </footer>
 
