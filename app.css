@@ -51,6 +51,14 @@ header .row {
     border-color: #134611;
 }
 
+h2 {
+    margin: 20px 0;
+}
+
+.gameboy-image:hover {
+    opacity: 0.75;
+} 
+
 @media (max-width: 575.98px) {
     header {
         background: contain
